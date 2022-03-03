@@ -1,6 +1,6 @@
 import { useState, memo, useCallback} from 'react'
 import { GoogleMap, useLoadScript } from '@react-google-maps/api';
-import { API_KEY } from '../../../my.js';
+import { API_KEY } from '../../my.js'
 
 
 const containerStyle = {
