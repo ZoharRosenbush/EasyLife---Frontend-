@@ -1,0 +1,41 @@
+
+article.transaction-details{
+    flex-direction: column;
+    @include tablet-layout{
+        flex-direction: row;
+    }
+   
+   h1{
+    color: var(--bold-dominant);
+   }
+    section.details{
+        flex-grow: 2;
+        h3{
+            margin-bottom:30px;
+            color: var(--bold-dominant);
+        }
+        .actions{
+            gap:8px;
+        }
+    }
+
+    .content-container{
+        flex-direction: column;
+        @include tablet-layout{
+            flex-direction: row;
+        }
+        section.add-edit{
+            flex-grow: 2;
+        }
+        img.details-svg{
+            height: 400px;
+            width: 245px;
+            flex-grow: 1;
+
+            @include tablet-layout{
+                width: 350px;
+            }
+        }
+
+    }
+}

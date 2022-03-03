@@ -1,0 +1,81 @@
+.transaction-preview{
+    height: 100px;
+    gap: 0;
+    margin-bottom: 15px;
+    font-size: 0.875rem;
+    padding-inline-start: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    @include tablet-layout{
+        flex-wrap: nowrap;
+    }
+
+    background-color: var(--secondary-dominant);
+    @include tablet-layout{
+        height: 50px;
+        gap: 80px;
+    }
+    .third-column{
+        &::before{
+            content: 'Customer:' ;
+        }
+        @include tablet-layout{
+            &::before{
+                content: '' ;
+            }
+        }
+    }
+    .fourth-column{
+        &::before{
+            content: 'Total price:' ;
+        }
+    
+        @include tablet-layout{
+            &::before{
+                content: '' ;
+            }
+        }
+    }
+
+   .third-column,.fourth-column{
+    min-width: 200px;
+    max-width: 200px;
+    display: flex;
+
+    p{
+        margin-inline-start: 10px;
+    }
+
+    @include tablet-layout{
+        min-width: 140px;
+        max-width: 140px;
+        p{
+            margin:0;
+        }
+    }
+   
+   }
+   .second-column{
+    min-width: 85px;
+    max-width: 85px;
+
+   }
+   
+    width: 100%;
+    .first-column{
+        gap: 15px;
+        min-width: 50px;
+    }
+    .third-column{
+        margin-right: 10px;
+    }
+   
+    .small-circle{
+        height: 10px;
+        width: 10px;
+        background-color: var(--light-dominant);
+        border-radius: 50%;
+    }
+   
+
+}

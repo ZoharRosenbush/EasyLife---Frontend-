@@ -1,0 +1,20 @@
+.app-layout {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 50px 1fr 50px;
+    height: 100vh;
+    align-content: flex-start;
+    background-color: --main-bg-clr;
+    >* {
+      grid-column: 2/3;
+  }
+  >*.full {
+    grid-column: 1 / -1;
+  }
+}
+
+.simple-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-gap: 30px;
+}

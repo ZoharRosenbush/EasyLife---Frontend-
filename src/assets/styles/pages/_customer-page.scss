@@ -1,0 +1,20 @@
+section.customer-page{
+   
+    header{
+        margin-bottom: 30px;
+        gap: 15px;
+        h1{
+            margin: 0;
+            color: var(--bold-dominant);
+        }
+        button.primary-btn{
+            border-top: 15px;
+        }
+    }
+
+    .customer-list{
+        width: 80%;
+        margin-bottom: 15px;
+    }
+}
+

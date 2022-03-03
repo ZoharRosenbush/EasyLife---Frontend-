@@ -1,0 +1,14 @@
+/* Media queries Breakpoint mixins */
+
+@mixin tablet-layout {
+    @media (min-width: $tablet) {
+        @content;
+    }
+    
+}
+@mixin desktop-layout {
+    @media (min-width: $desktop) {
+        @content;
+    }
+    
+}

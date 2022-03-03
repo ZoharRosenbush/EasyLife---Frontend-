@@ -1,0 +1,106 @@
+button {
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: var(--bold-dominant);
+    border: none;
+    color: #fff;
+    margin-right: 4px;
+    padding: 10px 16px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: rem(14px);
+    font-weight: 500;
+    transition: color 200ms ease;
+    &:hover {
+        background-color: var(--light-dominant);
+        box-shadow: none;
+        transform: scale(1.04);
+    }
+}
+
+.secondary-btn {
+    background-color: #f3f3f4;
+    border: none;
+    color: #0d0c22;
+    margin-right: 4px;
+    padding: 10px 16px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: rem(14px);
+    font-weight: 500;
+    transition: color 200ms ease;
+    &:hover {
+        background-color: #e7e7e9;
+        box-shadow: none;
+    }
+}
+
+.delete-primary-btn {
+    background-color: #b04632;
+    border: none;
+    color: #fff;
+    margin-right: 4px;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: rem(14px);
+}
+
+// close-icon-btn
+.primary-close-btn {
+    padding: 4px 8px;
+    background-color: inherit;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+}
+
+.delete-btn{
+
+    background-color: transparent;
+    font-family: roboto-regular, sans-serif;
+    cursor: pointer;
+    border: none;
+    color: var( --light-font-clr);
+    font-size: 85%;
+    // align-self: flex-end;
+    // padding-inline-end: 30px;
+    &:hover {
+        color: var(--main-font-clr);
+        transition: color 0.3s ease;
+    }
+    &.black{
+        color: #010101;
+    }
+    &.white{
+        color: #f9f9f9;
+    }
+    &.margin{
+        margin-bottom: 15px;
+    }
+
+}
+
+.pagination-btn{
+    background-color:#34d8bf85 ;
+    border: none;
+    color: #fff;
+    margin-right: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 8px;
+    font-size: rem(14px);
+    font-weight: 500;
+    transition: color 200ms ease;
+    &:hover {
+        background-color: #2cdcc1;
+        box-shadow: none;
+        transform: scale(1.04);
+    }
+    &.active{
+        background-color: #2cdcc1;
+    }
+}

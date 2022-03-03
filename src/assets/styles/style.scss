@@ -1,0 +1,27 @@
+// SETUP
+@import 'setup/typography.scss';
+@import 'setup/variables.scss';
+@import 'setup/functions.scss';
+@import 'setup/mixins.scss';
+
+// BASICS
+@import 'basics/helpers.scss';
+@import 'basics/base.scss';
+@import 'basics/buttons.scss';
+@import 'basics/layout.scss';
+
+
+// CMPS
+@import './cmps/app-header.scss';
+@import './cmps/transaction-preview';
+@import './cmps/user-msg';
+@import './cmps/add-edit';
+@import './cmps/date-cmp';
+@import './cmps/customer-preview';
+
+
+// PAGES
+@import './pages/transaction-page';
+@import './pages/transaction-details';
+@import './pages/customer-page';
+@import './pages/customer-details';

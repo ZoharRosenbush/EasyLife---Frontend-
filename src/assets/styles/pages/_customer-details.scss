@@ -1,0 +1,47 @@
+article.customer-details{
+    flex-direction: column;
+    @include tablet-layout{
+        flex-direction: row;
+    }
+    h1{
+     color: var(--bold-dominant);
+    }
+     section.details{
+         flex-grow: 2;
+         align-self: flex-start;
+         h3{
+             margin-bottom:30px;
+             color: var( --main-font-clr);
+         }
+         .actions{
+             gap:8px;
+         }
+     }
+ 
+     .content-container{
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        
+        @include tablet-layout{
+            flex-direction: row;
+            gap: 20px;
+        }
+         section.add-edit{
+             flex-grow: 2;
+         }
+         .map-container{
+             height: 400px;
+             width: 400px;
+             flex-grow: 1;
+
+             @include tablet-layout{
+
+                width:600px;
+               height:600px;
+                
+            }
+         }
+     }
+ }
+ 
