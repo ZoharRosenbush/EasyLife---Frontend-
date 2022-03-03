@@ -1,6 +1,6 @@
 Easy Life - Zohar Rosenbush
 
-My app is also availble in Heroku, check it out! https://easylife--app.herokuapp.com
+My app is also availble in Heroku, check it out! https://easylifeapp.herokuapp.com
 
 Technologies used : 
 
